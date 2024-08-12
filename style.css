@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background: black;
+     
+}
+.wrapper {
+    max-width: 500px;
+    margin: 50px auto;
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 30px 20px;
+    text-align: center;
+    background: linear-gradient(#00d4ff, #0d0855, #090979 );
+}
+.WeatherApp{
+    color: #090979;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background: transparent;
+    color: whitesmoke;
+    
+}
+
+button {
+    width: 15%;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 1px;
+    background: transparent;
+}
+
+.search-area {
+    display: flex;
+}
+
+.box {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+p {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 40px;
+    margin: 10px 0px;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+
+.location {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 350px;
+    padding: 18px;
+    border-left: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.Error {
+    color: black;
+}
